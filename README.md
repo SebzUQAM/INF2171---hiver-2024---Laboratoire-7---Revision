@@ -103,17 +103,17 @@ b. Qu’est-ce que ce programme retourne si l’on prends les données présente
     <br/>**Réponse :** Rien puisqu'il n'est pas fini, mais normalement 800
 
 c. Écrivez les fonctions prochainElement et finProg directement dans le code. Vous devriez avoir 7 nouvelles lignes d’instructions.
-    <br/>**Réponse :** 
-    <br/>prochainElement:
-        <br/>addi s1, s1, 8
-        <br/>addi s2, s2, -1
-    <br/>finProg: 
-        <br/>li a7, printInt
-        <br/>mv a0, s0
-        <br/>ecall
+<br/>   **Réponse :** 
+<br/>   prochainElement:
+<br/>       addi s1, s1, 8
+<br/>       addi s2, s2, -1
+<br/>   finProg: 
+<br/>       li a7, printInt
+<br/>       mv a0, s0
+<br/>       ecall
 
-        <br/>li a7, exit
-        <br/>ecall
+<br/>       li a7, exit
+<br/>       ecall
 
 d. Vous souhaitez passer ceci dans votre programme : tab2: .word 11, 5, -19, 24, 30, -30, 90, -150, 400, -12. Cependant, votre programme se termine avec des erreurs. Pourquoi? Comment peut-on corriger cette erreur?
     <br/>**Réponse :** Le logiciel original gère des dword, mais les nouvelles données sont des word. donc il faut additionner 4 et non 8 dans la fonction prochainElement.
