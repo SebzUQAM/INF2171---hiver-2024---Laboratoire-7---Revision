@@ -81,9 +81,9 @@ Dans votre nouvel emploi, on vous demande de créer un programme qui permettra a
 	<br/>0x0A15 +
 	<br/>E+5=13; 13-10=3
 	<br/>Donc 3 avec une retenu de 1
-	<br/>1+F+1 = 12; 12-10=2
+	<br/>1+F+1 = 11; 11-10=1
 	<br/>Donc 2 avec une retenu de 1
 	<br/>1+A+A=15; 15-10=5
 	<br/>Donc 5 avec une retenu de 1
 	<br/>1+C=D
-	<br/>Pour un total de 0xD523
+	<br/>Pour un total de 0xD513
